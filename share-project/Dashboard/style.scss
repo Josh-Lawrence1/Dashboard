@@ -1,0 +1,18 @@
+@use "headding.scss" as head;
+@use "col.scss" as col;
+$wcolor: #ffffff;
+$bcolor: #000000;
+$gcolor: #737373;
+
+.body {
+  display: flex;
+  color: $bcolor; // Set text color
+  font-family: Arial, sans-serif; // Set font family
+}
+
+.row {
+  flex: 1; // Allow row to take remaining space
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}

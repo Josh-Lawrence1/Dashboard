@@ -1,0 +1,44 @@
+
+
+.col {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    position: fixed;
+    left: 0;
+    width: 20%;
+    height: 100vh; // Expand to the bottom of the page
+    flex-direction: column;
+    border-right: 3px solid $gcolor;
+    background-color: $wcolor;
+    gap: 10px; // Add gap between child elements
+}
+
+.col button {
+    display: flex;
+    align-items: center;
+    align-self: center; // Center the buttons
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: $wcolor;
+    color: $bcolor;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: $bcolor;
+        color: $wcolor;
+    }
+}
+
+.logo-img {
+    position: relative;
+    width: 50%; // Adjust the width
+    height: auto; // Maintain aspect ratio
+    align-self: center; // Center the image
+    margin-top: -20px; // Move the image up
+}
