@@ -1,18 +1,37 @@
-@use "headding.scss" as head;
+
 @use "col.scss" as col;
+@use "colors.scss" as color;
 $wcolor: #ffffff;
 $bcolor: #000000;
 $gcolor: #737373;
-
 .body {
   display: flex;
-  color: $bcolor; // Set text color
+  color: #000000; // Set text color
   font-family: Arial, sans-serif; // Set font family
 }
-
+.headding {
+  bottom: 30%; // Align the row to 
+  border-bottom: 3px solid #737373;
+}
 .row {
   flex: 1; // Allow row to take remaining space
   display: flex;
   justify-content: flex-end;
   align-content: flex-end;
 }
+
+
+
+button {
+  width: 100%; // Set width to auto
+  height: auto; // Adjust height automatically
+  font-size: 1em; // Adjust font size relative to screen size
+}
+
+.log-btn {
+  width: 100%; // Set width to auto
+  height: 60px; // Adjust height automatically
+  font-size: 1em; // Adjust font size relative to screen size
+}
+
+

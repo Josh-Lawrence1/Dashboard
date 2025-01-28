@@ -1,17 +1,3 @@
-.body {
-  display: flex;
-  color: #000000;
-  font-family: Arial, sans-serif;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  flex: 1;
-  bottom: 30%;
-  border-bottom: 3px solid #737373;
-}
-
 .col {
   display: flex;
   flex-wrap: wrap;
@@ -32,18 +18,29 @@
   align-self: center;
 }
 
+.btn i {
+  margin-right: 3px;
+  /* Adjust the value as needed */
+}
+
 .btn {
   padding: 10px 20px;
   border: none;
   background-color: #ffffff;
-  color: #000000;
+  color: rgba(0, 0, 0, 0);
   cursor: pointer;
   border-radius: 7px;
   transition: background-color 0.3s;
 }
 .btn:hover {
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0);
   color: #ffffff;
+}
+
+.btn img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
 
 .logo-img {
@@ -52,4 +49,34 @@
   height: auto;
   align-self: center;
   margin-top: -20px;
+}
+
+.body {
+  display: flex;
+  color: #000000;
+  font-family: Arial, sans-serif;
+}
+
+.headding {
+  bottom: 30%;
+  border-bottom: 3px solid #737373;
+}
+
+.row {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+
+button {
+  width: 100%;
+  height: auto;
+  font-size: 1em;
+}
+
+.log-btn {
+  width: 100%;
+  height: 60px;
+  font-size: 1em;
 }/*# sourceMappingURL=style.css.map */
