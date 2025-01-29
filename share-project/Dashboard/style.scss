@@ -5,9 +5,10 @@ $bcolor: #000000;
 $gcolor: #737373;
 .body {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   color: #000000; // Set text color
   font-family: Arial, sans-serif; // Set font family
+  align-content: flex-end;
 }
 .heading {
   bottom: 30%; // Align the row to 
@@ -15,57 +16,12 @@ $gcolor: #737373;
 }
 .row {
   display: flex;
+  position:absolute;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 10px;
+  padding-left: 13%;
   background-color: $wcolor;
-}
-
-.col {
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 20px;
-  position: fixed;
-  left: 0;
-  width: 20%;
-  height: 100vh; // Expand to the bottom of the page
-  flex-direction: column;
-  border-right: 3px solid $gcolor; // Use the namespace to reference the variable
-  background-color: $wcolor; // Use the namespace to reference the variable
-  gap: 10px; // Add gap between child elements
-}
-
-.col button {
-  display: flex;
-  align-items: center;
-  align-self: center; // Center the buttons
-}
-
-.btn i {
-  margin-right: 3px;
-  /* Adjust the value as needed */
-}
-
-.btn {
-  padding: 10px 20px;
-  border: none;
-  background-color: $wcolor;
-  color: $bcolor;
-  cursor: pointer;
-  border-radius: 7px;
-  transition: background-color 0.3s;
-
-  &:hover {
-    background-color: $bcolor;
-    color: $wcolor;
-  }
-}
-
-.btn img {
-  width: 20px;
-  height: 20px;
-  margin-right: 8px; /* Space between the image and text */
 }
 
 .rounded-input{
