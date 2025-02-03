@@ -1,0 +1,99 @@
+.col {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  position: fixed;
+  left: 0;
+  width: 13%;
+  height: 100vh;
+  flex-direction: column;
+  border-right: 3px solid #737373;
+  background-color: #ffffff;
+  gap: 10px;
+}
+
+.col button {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.btn i {
+  margin-right: 3px;
+  /* Adjust the value as needed */
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: background-color 0.3s;
+}
+.btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.btn img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.logo-img {
+  position: relative;
+  width: 50%;
+  height: auto;
+  align-self: center;
+  margin-top: -20px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  color: #000000;
+  font-family: Arial, sans-serif;
+  align-content: flex-end;
+}
+
+.heading {
+  bottom: 30%;
+  border-bottom: 3px solid #737373;
+}
+
+.row {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 13%;
+  background-color: #ffffff;
+}
+
+.rounded-input {
+  height: auto;
+  width: 10%;
+}
+
+button {
+  width: 100%;
+  height: auto;
+  font-size: 0.8em;
+}
+
+.log-btn {
+  width: 60%;
+  height: auto;
+  font-size: 1em;
+}
+
+.divider {
+  width: 70%; /* Adjust the width as needed */
+  height: 1px;
+  background-color: #737373; /* Adjust the color as needed */
+  margin: 10px auto; /* Center the divider and add vertical margin */
+}/*# sourceMappingURL=style.css.map */
